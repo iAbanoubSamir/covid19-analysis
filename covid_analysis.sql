@@ -1,6 +1,13 @@
 USE CovidData;
 
 
+-- Rename some columns names
+ALTER TABLE daily_reports
+CHANGE COLUMN `Country/Region` Country VARCHAR(100);
+
+ALTER TABLE daily_reports
+CHANGE COLUMN `WHO Region` WHO_Region VARCHAR(100);
+
 -- Preview first 10 rows to understand the structure of the dataset
 SELECT *
 FROM daily_reports
