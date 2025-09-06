@@ -26,6 +26,8 @@ This project analyzes COVID-19 data to understand patterns, trends, and impacts 
 - **Jupyter Notebook** - Interactive development
 - **Docker** - Containerization
 
+**Dataset:** [Covid19-Dataset - Kaggle](https://www.kaggle.com/datasets/imdevskp/corona-virus-report)
+
 ## 📂 Project Structure
 
 ```
